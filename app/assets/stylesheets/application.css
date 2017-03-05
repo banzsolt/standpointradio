@@ -16,8 +16,10 @@
 
 body
 {
-    background-image:url('/gif.gif');
-    background-size:100%;
+
+    background:url('/gif.gif') no-repeat 50% 50% fixed;
+    background-size: cover;
+    -webkit-background-origin:border;
     height:100%;
     width:99%;
 }
